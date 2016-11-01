@@ -1,0 +1,37 @@
+.into-picture {
+    height: 100%; /* Full PAge */
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    color: #f8f8f8;
+    background: url(../img/intro/board-game-529586.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    opacity: 0.75;
+    filter: blur(20px);
+    filter: brightness(20%);
+}
+
+.into-logo {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-self: center;
+    width: 80%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.into-text {
+    color: darkgrey;
+    font-size: 4em;
+    font-family: Verdana;
+}
+
+
+.nav-image {
+    display: inline-block;
+    height: 200%;
+    width: auto;
+    vertical-align: text-top;
+}
