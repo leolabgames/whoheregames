@@ -46,9 +46,12 @@ $(document).ready(function() {
 		// OwlCarousel N2
 		$("#owl-demo-1").owlCarousel({
 			  navigation : false, // Show next and prev buttons
-			  slideSpeed : 300,
+			  slideSpeed : 200,
 			  paginationSpeed : 400,
-			  singleItem:true
+			  singleItem : true,
+			  autoPlay : true,
+			  stopOnHover : true,
+			  rewindNav : true
 		});
 
 		//SmothScroll
